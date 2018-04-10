@@ -1,0 +1,11 @@
+.card-rad {
+    border-radius: 5px;
+}
+
+.img-rad {
+    border-radius: 10px;
+}
+
+.img-avatar {
+    border-radius: 100%;
+}

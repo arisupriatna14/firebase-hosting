@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simulasi Tes SPMB Mandiri</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- myStyle -->
+  <link rel="stylesheet" href="../../assets/css/myStyle.css">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="../../assets/font-awesome/css/font-awesome.min.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Alice|Berkshire+Swash|Sirin+Stencil|Righteous" rel="stylesheet">
+  <link rel="icon" href="../assets/img/developer.png" type="image/png">
+
+  <style>
+    .check {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100px;
+      height: 100%;
+    }
+
+    .check div {
+      height: 50px;
+      width: 100%;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-info">
+    <a class="navbar-brand text-white" href="#">RILABS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="about-us/about-us.html">About Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /navbar -->
+
+  <br>
+  <br>
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="card border-danger">
+
+          <h5 class="card-header bg-danger text-white">TES ANGKA DALAM CERITA</h5>
+          <div class="card-body">
+            <ol>
+              <li>
+                <p>Liah mendapat nilai 81 untuk IPA. Nilai 89 untuk IPS. Nilai 78 untuk Bahasa Indonesia dan nilai 86 untuk
+                  matematika. Bila Liah ingin mendapat nilai rata-rata nilainya sebesar 84. Maka berapakah nilai yang harus
+                  diperoleh untuk pelajaran Bahasa Inggris ?</p>
+                <input type="radio" name="question1" id="a1"> 88
+                <br>
+                <input type="radio" name="question1" id="b1"> 85
+                <br>
+                <input type="radio" name="question1" id="c1"> 86
+                <br>
+                <input type="radio" name="question1" id="d1"> 87
+                <br>
+                <input type="radio" name="question1" id="e1"> 90
+                <br>
+              </li>
+              <br>
+              <li>
+                <p>Kaka beradik bernama Nia, Nanik, dan Nur. Nanik 9 tahun lebih tua daripada Nia. Nur 2 tahun lebih tua dari
+                  Nanik. Apabila usia mereka dijumlahkan akan mendapat angka 95. Berapakah usia Nia sekarang ?</p>
+                <input type="radio" name="question2" id="a2"> 26
+                <br>
+                <input type="radio" name="question2" id="b2"> 35
+                <br>
+                <input type="radio" name="question2" id="c2"> 15
+                <br>
+                <input type="radio" name="question2" id="d2"> 24
+                <br>
+                <input type="radio" name="question2" id="e2"> 25
+                <br>
+              </li>
+              <br>
+              <li>
+                <p>Rayhan membutuhkan waktu x menit untuk membaca 4 halaman buku. Berapa halaman buku yang dapat dibaca selama
+                  9 menit ?</p>
+                <input type="radio" name="question3" id="a3"> 9/4x
+                <br>
+                <input type="radio" name="question3" id="b3"> 18/9
+                <br>
+                <input type="radio" name="question3" id="c3"> 4x/9
+                <br>
+                <input type="radio" name="question3" id="d3"> 27/9x
+                <br>
+                <input type="radio" name="question3" id="e3"> 9x/4
+                <br>
+              </li>
+              <br>
+              <li>
+                <p>Katrina membeli baju dengan harga Rp. 80.000,- baju tersebut mendapat diskon sebesar 15% dari harga baju.
+                  Karena toko tersebut sedang melakukan promo,maka Katrina mendapat diskon tambahan diskon 25% dari harga
+                  awal setelah dikurangi 15%. Berapakah harga yang harus dibayarkan ?</p>
+                <input type="radio" name="question4" id="a4"> Rp. 50.000
+                <br>
+                <input type="radio" name="question4" id="b4"> Rp. 48.000
+                <br>
+                <input type="radio" name="question4" id="c4"> Rp. 41.000
+                <br>
+                <input type="radio" name="question4" id="d4"> Rp. 51.000
+                <br>
+                <input type="radio" name="question4" id="e4"> Rp. 55.000
+                <br>
+              </li>
+              <br>
+              <li>
+                <p>Bila roda pertama berputar 9 kali, maka roda kedua berputar 24 kali. Bila yang pertama berputar 27 kali,
+                  berapa kali roda berputar ?</p>
+                <input type="radio" name="question5" id="a5"> 72 kali
+                <br>
+                <input type="radio" name="question5" id="b5"> 74 kali
+                <br>
+                <input type="radio" name="question5" id="c5"> 82 kali
+                <br>
+                <input type="radio" name="question5" id="d5"> 84 kali
+                <br>
+                <input type="radio" name="question5" id="e5"> 92 kali
+                <br>
+              </li>
+            </ol>
+
+            <div class="check">
+              <div id="chk1"></div>
+              <div id="chk2"></div>
+              <div id="chk3"></div>
+              <div id="chk4"></div>
+              <div id="chk5"></div>
+            </div>
+
+            <br>
+
+            <a href="#" class="btn btn-primary" onclick="checkResult()">Submit</a>
+
+          </div>
+          <!-- card-body -->
+        </div>
+        <!-- card -->
+      </div>
+
+      <br>
+
+      <div class="col-lg-5">
+
+        <div class="card border-success">
+          <h5 class="card-header bg-success text-white">Hasil</h5>
+          <div class="card-body">
+            <h5>
+              Jumlah Benar:
+              <h5 id="score"></h5>
+            </h5>
+            <h5>
+              Presentasi:
+              <h5 id="percentage"></h5>
+            </h5>
+            <h5>Kunci Jawaban:</h5>
+            <p id="jawaban"></p>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="card border-primary text-white">
+          <h5 class="card-header bg-primary">Next Test</h5>
+          <div class="card-body text-center">
+            <ol class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a href="tes-acak-kata.html">Tes Acak Kata</a>
+              </li>
+              <li class="list-group-item">
+                <a href="tes-angka-cerita.html">Tes Angka Dalam Cerita</a>
+              </li>
+              <li class="list-group-item">
+                <a href="tes-antonim.html">Tes Antonim</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">Tes Aritmatika dan Konsep Aljabar</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">Tes Deret Angka</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">Tes Hitungan</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">Tes Kolerasi Makna (Analogi Verbal)</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">Tes Logika Umum</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="card border-warning text-white">
+          <h5 class="card-header bg-warning">Diskusi</h5>
+          <div class="card-body">
+
+            <div id="disqus_thread"></div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <br>
+
+  <!--Footer -->
+  <footer class="page-footer font-small indigo bg-info pt-0">
+
+    <!-- Footer Links-->
+    <div class="container">
+
+      <!--First row-->
+      <div class="row">
+
+        <!--First column-->
+        <div class="col-md-12 py-5">
+
+          <div class="mb-5 text-center text-white">
+
+            <!--Facebook-->
+            <a class="fb-ic text-white" href="https://www.facebook.com/profile.php?id=100010804383796">
+              <i class="fa fa-facebook fa-lg mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Medium -->
+            <a class="text-white" href="https://medium.com/@arisupriatna" target="_blank">
+              <i class="fa fa-medium fa-lg mr-md-5 mr-3 fa-2x"></i>
+            </a>
+            <!--Google +-->
+            <a class="gplus-ic text-white" href="https://plus.google.com/u/0/118373014150443713337">
+              <i class="fa fa-google-plus fa-lg mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Linkedin-->
+            <a class="li-ic text-white" href="https://www.linkedin.com/in/ari-s-08a85b130/">
+              <i class="fa fa-linkedin fa-lg mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic text-white" href="https://www.instagram.com/arisupriatna1408/">
+              <i class="fa fa-instagram fa-lg mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- github -->
+            <a class="text-white" href="https://github.com/arisupriatna14" target="_blank">
+              <i class="fa fa-github fa-lg mr-md-5 mr-3 fa-2x"></i>
+            </a>
+          </div>
+        </div>
+        <!--/First column-->
+      </div>
+      <!--/First row-->
+    </div>
+    <!--/Footer Links-->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3 text-center text-white">
+      © 2018 Copyright:
+      <a href="https://www.explorecode.tk/"> Rilabs, Inc </a>
+    </div>
+    <!--/Copyright-->
+
+  </footer>
+  <!--/Footer-->
+
+
+  <!-- js bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <!-- quiz -->
+  <script src="js/tesAngkaCerita.js"></script>
+  <!-- Disqus -->
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function () { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://explorecode-tk.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+</body>
+
+</html>
